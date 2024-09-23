@@ -1,4 +1,7 @@
-Analysis and prediction on the Beer Reviews from Beer Advocate dataset
+dataset: www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate
+
+language: R, Python\
+skills: EDA, data visualisation, ML, NLP, sentiment analysis, documentation
 
 consists of a rmd and ipynb notebook\
 answers the following questions using statistical methods:
@@ -13,11 +16,7 @@ answers the following questions using statistical methods:
 used NLP and sentiment analysis techniques for 5 and 6
 (PCA and K-means clustering)
 
-language: R, Python
-skills: EDA, data visualisation, ML, NLP, sentiment analysis, documentation
-dataset: www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate
 ipynb -> pdf converter: www.vertopal.com/en/convert/rmd-to-pdf
-
 done as part of a uni assignment for "Introduction to Analytics using R - (CSC347)"
 
 contact me on discord for any queries :>
