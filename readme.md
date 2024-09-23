@@ -17,7 +17,7 @@ answers the following questions using statistical methods:
 used NLP and sentiment analysis techniques for 5 and 6
 (PCA and K-means clustering)
 
-ipynb -> [pdf converter](www.vertopal.com/en/convert/rmd-to-pdf)
+ipynb -> [pdf converter](www.vertopal.com/en/convert/rmd-to-pdf)\
 done as part of a uni assignment for "Introduction to Analytics using R - (CSC347)"
 
 contact me on discord for any queries :>
