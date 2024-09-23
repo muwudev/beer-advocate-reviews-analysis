@@ -15,7 +15,7 @@ used NLP and sentiment analysis techniques for 5 and 6
 
 language: R, Python
 skills: EDA, data visualisation, ML, NLP, sentiment analysis, documentation
-dataset: www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate\
+dataset: www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate /
 ipynb -> pdf converter: www.vertopal.com/en/convert/rmd-to-pdf
 
 done as part of a uni assignment for "Introduction to Analytics using R - (CSC347)"
