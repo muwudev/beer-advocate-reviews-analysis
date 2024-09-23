@@ -1,6 +1,6 @@
 Analysis and prediction on the Beer Reviews from Beer Advocate dataset
 
-consists of a rmd and ipynb notebook
+consists of a rmd and ipynb notebook\
 answers the following questions using statistical methods:
 
 1. Rank top 3 Breweries which produce the strongest beers?
@@ -13,7 +13,7 @@ answers the following questions using statistical methods:
 used NLP and sentiment analysis techniques for 5 and 6
 (PCA and K-means clustering)
 
-language: R, Pythong
+language: R, Python
 skills: EDA, data visualisation, ML, NLP, sentiment analysis, documentation
 dataset: www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate
 rmd -> pdf converter: www.vertopal.com/en/convert/rmd-to-pdf
