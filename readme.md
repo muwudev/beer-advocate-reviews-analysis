@@ -1,4 +1,4 @@
-### beer advocate reviews analysis\
+### Beer Advocate Reviews Analysis
 [dataset](www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate)
 
 language: R, Python\
