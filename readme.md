@@ -142,6 +142,4 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## Contact
-
 Feel free to contact me on discord if you have any queries :3
