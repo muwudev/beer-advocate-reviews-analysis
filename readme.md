@@ -4,7 +4,6 @@ This project analyzes a dataset of beer reviews to answer key questions about be
 
 [![Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue)](https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate)
 
----
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
@@ -16,7 +15,7 @@ This project analyzes a dataset of beer reviews to answer key questions about be
 7. [Dependencies](#dependencies)
 8. [Contributing](#contributing)
 
----
+
 
 ## Project Overview
 
