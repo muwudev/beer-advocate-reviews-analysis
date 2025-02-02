@@ -16,12 +16,10 @@ This project analyzes a dataset of beer reviews to answer key questions about be
 8. [Contributing](#contributing)
 
 
-
 ## Project Overview
 
 This project uses **Exploratory Data Analysis (EDA)**, **Natural Language Processing (NLP)**, **Sentiment Analysis**, and **Machine Learning (ML)** techniques to analyze a dataset of beer reviews. The goal is to answer specific questions about beer ratings, user preferences, and brewery performance.
 
----
 
 ## Dataset Description
 
@@ -40,7 +38,6 @@ The dataset used in this project is sourced from [Kaggle](https://www.kaggle.com
 - `review_text`: Written review by the user.
 - `review_time`: Timestamp of the review.
 
----
 
 ## Analysis Questions
 
@@ -64,7 +61,6 @@ The project answers the following questions using statistical methods, NLP, and 
 6. **How does written review compare to overall review score for the beer styles?**  
    - Compared sentiment scores from written reviews with overall ratings.
 
----
 
 ## Methodology
 
@@ -79,7 +75,6 @@ The project answers the following questions using statistical methods, NLP, and 
 - **R Notebook**: Performs data cleaning, correlation analysis, sentiment analysis, and visualization.
 - **Python Notebook**: Focuses on text preprocessing, TF-IDF, cosine similarity, and K-means clustering.
 
----
 
 ## Results
 
@@ -91,7 +86,6 @@ The project answers the following questions using statistical methods, NLP, and 
 5. **Favorite Beer Style**: `American Blonde Ale` is the most liked beer style based on sentiment analysis.
 6. **User Clusters**: Users were grouped into 3 clusters based on their review patterns.
 
----
 
 ## Usage
 
@@ -110,7 +104,6 @@ The project answers the following questions using statistical methods, NLP, and 
 
 - Convert the R notebook to PDF using [Vertopal](https://www.vertopal.com/en/convert/rmd-to-pdf).
 
----
 
 ## Dependencies
 
@@ -129,7 +122,6 @@ The project answers the following questions using statistical methods, NLP, and 
 - `re`
 - `tqdm`
 
----
 
 ## Contributing
 
@@ -139,6 +131,5 @@ Contributions are welcome! Please follow these steps:
 3. Make your changes.
 4. Submit a pull request.
 
----
 
 Feel free to contact me on discord if you have any queries :3
