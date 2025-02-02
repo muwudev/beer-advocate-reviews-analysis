@@ -100,7 +100,7 @@ The project answers the following questions using statistical methods, NLP, and 
 ### Running the Code
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com//muwudev/beer-advocate-reviews-analysis.git
    cd your-repo
    ```
 2. Install dependencies:
@@ -110,7 +110,6 @@ The project answers the following questions using statistical methods, NLP, and 
    - Open the R notebook in RStudio or Jupyter Notebook.
    - Open the Python notebook in Jupyter Notebook or Google Colab.
 
-### Notebook Conversion
 - Convert the R notebook to PDF using [Vertopal](https://www.vertopal.com/en/convert/rmd-to-pdf).
 
 ---
