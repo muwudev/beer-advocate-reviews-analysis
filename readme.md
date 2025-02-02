@@ -15,7 +15,6 @@ This project analyzes a dataset of beer reviews to answer key questions about be
 6. [Usage](#usage)
 7. [Dependencies](#dependencies)
 8. [Contributing](#contributing)
-9. [License](#license)
 
 ---
 
@@ -100,8 +99,8 @@ The project answers the following questions using statistical methods, NLP, and 
 ### Running the Code
 1. Clone the repository:
    ```bash
-   git clone https://github.com//muwudev/beer-advocate-reviews-analysis.git
-   cd your-repo
+   git clone https://github.com/muwudev/beer-advocate-reviews-analysis.git
+   cd beer-advocate-reviews-analysis
    ```
 2. Install dependencies:
    - For R: Install the required libraries (`dplyr`, `readr`, `syuzhet`, `ggplot2`, `pracma`).
