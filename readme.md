@@ -144,4 +144,4 @@ Contributions are welcome! Please follow these steps:
 
 ## Contact
 
-For any queries, feel free to contact me on **Discord**.
+Feel free to contact me on discord if you have any queries :3
