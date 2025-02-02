@@ -1,6 +1,8 @@
-# Beer Review Analysis Project
+# Beer Advocate Review Analysis
 
 This project analyzes a dataset of beer reviews to answer key questions about beer preferences, brewery performance, and user behavior. The analysis is conducted using two notebooks: one written in **R** and the other in **Python**.
+
+[![Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue)](https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate)
 
 ---
 
@@ -19,19 +21,13 @@ This project analyzes a dataset of beer reviews to answer key questions about be
 
 ## Project Overview
 
-The goal of this project is to analyze beer reviews to:
-- Identify the top breweries producing the strongest beers.
-- Determine the year with the highest beer ratings.
-- Understand which factors (taste, aroma, appearance, palette) are most important to users.
-- Recommend beers based on user ratings.
-- Analyze beer styles based on written reviews.
-- Find similar beer drinkers using machine learning techniques.
+This project uses **Exploratory Data Analysis (EDA)**, **Natural Language Processing (NLP)**, **Sentiment Analysis**, and **Machine Learning (ML)** techniques to analyze a dataset of beer reviews. The goal is to answer specific questions about beer ratings, user preferences, and brewery performance.
 
 ---
 
 ## Dataset Description
 
-The dataset (`reviews.csv`) contains the following columns:
+The dataset used in this project is sourced from [Kaggle](https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate). It contains the following columns:
 - `beer_ABV`: Alcohol by volume (ABV) of the beer.
 - `beer_beerId`: Unique identifier for each beer.
 - `beer_brewerId`: Unique identifier for each brewery.
@@ -50,46 +46,40 @@ The dataset (`reviews.csv`) contains the following columns:
 
 ## Analysis Questions
 
-1. **Top 3 Breweries Producing the Strongest Beers**  
+The project answers the following questions using statistical methods, NLP, and ML techniques:
+
+1. **Rank top 3 Breweries which produce the strongest beers?**  
    - Grouped by `beer_brewerId` and calculated the average ABV for each brewery.
 
-2. **Year with the Highest Beer Ratings**  
+2. **Which year did beers enjoy the highest ratings?**  
    - Extracted the year from `review_time` and calculated the average rating for each year.
 
-3. **Important Factors in User Ratings**  
+3. **Based on the user’s ratings, which factors are important among taste, aroma, appearance, and palette?**  
    - Calculated the correlation between `review_overall` and factors like taste, aroma, appearance, and palette.
 
-4. **Top 3 Recommended Beers**  
+4. **If you were to recommend 3 beers to your friends based on this data, which ones will you recommend?**  
    - Used weighted ratings to recommend beers based on user preferences.
 
-5. **Favorite Beer Style Based on Reviews**  
-   - Analyzed written reviews to determine the most liked beer style.
+5. **Which Beer style seems to be the favorite based on reviews written by users?**  
+   - Analyzed written reviews using sentiment analysis to determine the most liked beer style.
 
-6. **Comparison of Written Reviews and Overall Ratings**  
+6. **How does written review compare to overall review score for the beer styles?**  
    - Compared sentiment scores from written reviews with overall ratings.
-
-7. **Finding Similar Beer Drinkers**  
-   - Used TF-IDF and cosine similarity to group users with similar review patterns.
 
 ---
 
 ## Methodology
 
-### R Notebook
-- Libraries used: `dplyr`, `readr`, `syuzhet`, `ggplot2`, `pracma`.
-- Steps:
-  1. Loaded and cleaned the dataset.
-  2. Analyzed correlations between review factors.
-  3. Performed sentiment analysis on written reviews.
-  4. Visualized results using bar plots and scatter plots.
+### Tools and Techniques
+- **Languages**: R, Python
+- **Skills**: EDA, Data Visualization, Machine Learning, NLP, Sentiment Analysis, Documentation
+- **Libraries**:
+  - R: `dplyr`, `readr`, `syuzhet`, `ggplot2`, `pracma`
+  - Python: `pandas`, `numpy`, `nltk`, `sklearn`, `re`, `tqdm`
 
-### Python Notebook
-- Libraries used: `pandas`, `numpy`, `nltk`, `sklearn`, `re`, `tqdm`.
-- Steps:
-  1. Loaded and cleaned the dataset.
-  2. Performed text preprocessing on written reviews.
-  3. Used TF-IDF and cosine similarity to group similar users.
-  4. Applied K-means clustering to identify user clusters.
+### Notebooks
+- **R Notebook**: Performs data cleaning, correlation analysis, sentiment analysis, and visualization.
+- **Python Notebook**: Focuses on text preprocessing, TF-IDF, cosine similarity, and K-means clustering.
 
 ---
 
@@ -119,6 +109,9 @@ The dataset (`reviews.csv`) contains the following columns:
 3. Run the notebooks:
    - Open the R notebook in RStudio or Jupyter Notebook.
    - Open the Python notebook in Jupyter Notebook or Google Colab.
+
+### Notebook Conversion
+- Convert the R notebook to PDF using [Vertopal](https://www.vertopal.com/en/convert/rmd-to-pdf).
 
 ---
 
@@ -151,6 +144,6 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## License
+## Contact
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+For any queries, feel free to contact me on **Discord**.
